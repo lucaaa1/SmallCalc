@@ -13,10 +13,10 @@ def sichere_auswertung(funktions_input, x_werte):
 
 def main():
     # Benutzereingaben
-    funktions_input = input("Geben Sie die Funktion f(x) ein: ")
-    x_min = float(input("Geben Sie den minimalen Wert von x ein: "))
-    x_max = float(input("Geben Sie den maximalen Wert von x ein: "))
-    step = float(input("Geben Sie die Schrittweite ein: "))
+    funktions_input = input("f(x): ")
+    x_min = float(input("minimalen Wert von x: "))
+    x_max = float(input("maximalen Wert von x: "))
+    step = float(input("Schrittweite: "))
 
     # Erstellen eines Arrays von x-Werten
     x_werte = np.arange(x_min, x_max, step)
